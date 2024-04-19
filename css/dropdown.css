@@ -1,0 +1,106 @@
+
+  .profile-dropdown {
+    position: relative;
+    width: fit-content;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  
+  .profile-dropdown-btn {
+    display: flex;
+    align-items: center;
+    padding-right: 1rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    width: 150px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 1px solid  #4d9176;
+    transition: box-shadow 0.2s ease-in, background-color 0.2s ease-in,
+      border 0.3s;
+  }
+  
+  .profile-dropdown-btn:hover {
+    background-color: rgb(245, 245, 245);
+  }
+  
+  .profile-img img{
+    position: relative;
+    margin-left: 5px;
+    margin-right: -10px;
+    margin-top: 5px;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-size: cover;
+  }
+  
+  .profile-img i {
+    position: absolute;
+    right: 0;
+    bottom: 0.3rem;
+    font-size: 0.5rem;
+  }
+  
+  .profile-dropdown-btn span {
+    margin: 0 0.5rem;
+    margin-right: 0;
+  }
+  
+  .profile-dropdown-list {
+    position: absolute;
+    top: 65px;
+    width: 170px;
+    right: 0;
+    background-color: white;
+    border-color: rgba(0, 0, 0, 0.051);
+    border-radius: 10px;
+    max-height: 0;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px -5px;
+    transition: max-height 0.5s;
+  }
+  
+  .profile-dropdown-list hr {
+    border: 0.5px solid rgba(230, 230, 230, 0.515);
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .profile-dropdown-list.active {
+    max-height: 500px;
+  }
+  
+  .profile-dropdown-list-item a{
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    transition: background-color 0.2s ease-in, padding-left 0.2s;
+  }
+  
+  .profile-dropdown-list-item a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: black;
+  }
+  
+
+  .profile-dropdown-list-item:hover a{
+    padding-left: 1.5rem;
+    background-color: rgba(235, 235, 235, 0.57);
+    text-decoration: underline;
+  }
+  
+
+  .profile-dropdown .logout-btn{
+
+    justify-content: center;
+    padding-left: 45px;
+    padding-bottom: 10px;
+    padding-right: 45px;
+}
+
+.dropdown-username{
+  margin-left: 15px;
+}

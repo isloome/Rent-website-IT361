@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="css/dropdown.css" />
+    <title>Contact</title>
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="main.php"><img id="logo" src="img/logo.png" alt="website logo"></a>
+        </div>
+        <div class="links">
+            <div class="nav-btn">
+            <a href="main.php" data-lan="home">Home</a>
+            <a href="about.html" data-lan="about">About</a>
+            <a href="contact.html" data-lan="contact">Contact us</a>
+            </div> 
+            <div class="langselect">
+
+                <div class="profile-dropdown">
+                    <div onclick="toggle()" class="profile-dropdown-btn">
+                    <div class="profile-img">
+                        <img src="img/icon.png" alt="">
+                    </div>
+                    <div class="dropdown-username">
+                    <p>
+                        
+                    </p>
+                    </div>
+                </div>
+                <ul class="profile-dropdown-list">
+                    <li class='profile-dropdown-list-item'>
+                        <a href='edit.php?Id=$res_id'>
+                        Edit Profile
+                        </a>
+                    </li>
+                    <hr>
+                    <li class='profile-dropdown-list-item'>
+                        <a href='add.php?Id=$res_id'>
+                        Add post
+                        </a>
+                    </li>
+                    <hr>
+                    <li class="logout-btn">
+                        <a href="php/logout.php">
+                            <button class="btn">Log Out</button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <select>
+                <option value="en" data-lan="english" selected>English</option>
+                <option value="ar" data-lan="arabic">Arabic</option>
+            </select>
+            </div>
+        </div>
+    </nav>
+    </header>
+    <div class="contact">
+    <div class="card">
+        <h1>SULAIMAN <br> ALBEHAIRI</h1>
+        <br>
+        <p>Student at 
+            <br>Saudi Electronic University</p>
+        <div class="contactbtn">
+        <a href="mailto:s210041352@seu.edu.sa">contact</a>
+        </div>
+    </div>
+    <div class="card">
+        <h1>MUATH <br> ALMUTAIRI</h1>
+        <br>
+        <p>Student at 
+            <br>Saudi Electronic University</p>
+        <div class="contactbtn">
+        <a href="mailto:s210041265@seu.edu.sa">contact</a>
+        </div>
+    </div>
+    <div class="card">
+        <h1>YASSER <br> ALRASHIDI</h1>
+        <br>
+        <p>Student at 
+            <br>Saudi Electronic University</p>
+        <div class="contactbtn">
+        <a href="mailto:s210041211@seu.edu.sa">contact</a>
+        </div>
+    </div>
+</div>
+<footer>
+    <p>Saudi Electronic University <br> IT361 Project<br>
+    <a href="https://seu.edu.sa/">seu.edu.sa</a></p>
+</footer>
+    <script src="js/script.js" type="module"></script>
+    <script src="js/dropdown.js"></script>
+</body>
+</html>
