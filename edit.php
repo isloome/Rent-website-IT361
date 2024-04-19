@@ -12,12 +12,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/box.css">
-    <title>Change Profile</title>
+    <title>Test2</title>
 </head>
 <body>
     <?php include "header.php"; ?>
     <div class="container">
-        <div class="box form-box">
+        <div class="box form-Sbox">
             <?php 
                if(isset($_POST['submit'])){
                 $username = $_POST['username'];
